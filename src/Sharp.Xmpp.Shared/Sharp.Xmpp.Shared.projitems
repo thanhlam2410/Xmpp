@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>d1e25466-176d-4a59-8464-22a5588220da</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Sharp.Xmpp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Client\XmppClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\AuthenticationException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\ErrorEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Iq.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\IqEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\IqType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\SocketClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\MessageEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Presence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\PresenceEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Sasl\Mechanisms\SaslDigestMd5.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Sasl\Mechanisms\SaslPlain.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Sasl\Mechanisms\SaslScramSha1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Sasl\SaslException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Sasl\SaslFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Sasl\SaslMechanism.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\Stanza.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\TlsError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Core\XmppCore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ErrorCondition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ErrorType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\Availability.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\ErrorEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\GroupPrivacyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\JidPrivacyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\MessageEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\MessageType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\Presence.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\PresenceType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\PrivacyGranularity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\PrivacyList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\PrivacyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\Roster.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\RosterItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\RosterUpdatedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\Status.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\StatusEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\SubscriptionApprovedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\SubscriptionPrivacyRule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\SubscriptionRefusedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\SubscriptionRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\SubscriptionRequestEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\SubscriptionState.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\UnsubscribedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\XmlDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Im\XmppIm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Jid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MD5Core.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StreamParser\XmppException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StreamParser\XmppNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StreamParser\XmppParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StreamParser\XmppTree.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StreamParser\XmppXElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Xml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmppDisconnectionException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmppError.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmppErrorException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmppExceptions.cs" />
+  </ItemGroup>
+</Project>
